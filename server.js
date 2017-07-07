@@ -14,7 +14,8 @@ var connector = new builder.ChatConnector({
 });
 
 // Listen for messages from users 
-server.post('/api/messages', connector.listen());
+// server.post('/api/messages', connector.listen());
+server.get(/.*/, restify.serveStatic({ 'directory': '.', 'default': 'index.html' }));
 
 
 // Receive messages from the user and respond by echoing each message back (prefixed with 'You said:')
