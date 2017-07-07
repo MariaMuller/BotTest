@@ -1,0 +1,23 @@
+{
+  "name": "mybot",
+  "version": "1.0.0",
+  "description": "training bot",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "nodegit"
+  },
+  "keywords": [
+    "bot"
+  ],
+  "author": "maria",
+  "license": "ISC",
+  "dependencies": {
+    "botbuilder": "^3.8.4",
+    "restify": "^5.0.0"
+  },
+  "devDependencies": {}
+}
